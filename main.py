@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from glob import glob
 from tensorflow.keras import backend as K
 
-train= "/adrive/My Drive/covid19_with_resnet/COVID-19 Radiography Database/train/"
-test= "/adrive/My Drive/covid19_with_resnet/COVID-19 Radiography Database/test/"
+train= ".../COVID-19 Radiography Database/train/"
+test=  ".../COVID-19 Radiography Database/test/"
 
 img = load_img(train + "COVID-19/COVID-19 (1).png")
 img = img_to_array(img)
